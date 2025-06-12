@@ -57,4 +57,10 @@ public class AlcoholController {
     	Alcohol saved = alcoholService.saveAlcohol(dto);
     	return ResponseEntity.ok(saved);
     }
+
+//    @GetMapping("/")
+//    public List<Alcohol> alcoholList(@RequestParam(defaultValue = "0")int page, @RequestParam(defaultValue = "10") int size) {
+//        Pageable pageable = PageRequest.of(page, size, Sort.by("name").ascending());
+//        return AlcoholService.getAllAlcohols();
+//    }
 }

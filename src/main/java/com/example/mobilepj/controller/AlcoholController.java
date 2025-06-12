@@ -4,6 +4,9 @@ import java.util.Optional;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -41,4 +44,10 @@ public class AlcoholController {
     public List<Alcohol> alcoholList() {
         return AlcoholService.getAllAlcohols();
     }
+
+//    @GetMapping("/")
+//    public List<Alcohol> alcoholList(@RequestParam(defaultValue = "0")int page, @RequestParam(defaultValue = "10") int size) {
+//        Pageable pageable = PageRequest.of(page, size, Sort.by("name").ascending());
+//        return AlcoholService.getAllAlcohols();
+//    }
 }

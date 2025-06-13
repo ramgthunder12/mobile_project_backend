@@ -2,11 +2,21 @@ package com.example.mobilepj.entity;
 
 import java.math.BigDecimal;
 import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.JoinColumn;
+
+import java.util.ArrayList;
+//import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Alcohol {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int alcoholNumber;
     private String name;
     private String barcode;
@@ -17,14 +27,29 @@ public class Alcohol {
     private BigDecimal avgStar;
     private Integer ibu;
     private String tasteDetail;
-    private String taste;
-    private String aroma;
+//    private String taste;
+//    private String aroma;
     private String detail;
-
+    
+    @ManyToMany
+    @JoinTable(
+    		name = "alcohol_taste",
+    		joinColumns = @JoinColumn(name = "alcohol_number"),
+    		inverseJoinColumns = @JoinColumn(name = "taste_number")
+    )
+    private List<Taste> tastes = new ArrayList<>();
+    
+    @ManyToMany
+    @JoinTable(
+    		name = "alcohol_scent",
+    		joinColumns = @JoinColumn(name = "alcohol_number"),
+    		inverseJoinColumns = @JoinColumn(name = "scent_number")
+    )
+    private List<Scent> scents = new ArrayList<>();
     public Alcohol() {
     }
 
-    public Alcohol(int alcoholNumber, String name, String barcode, String category, String volume, String price, BigDecimal content, BigDecimal avgStar, Integer ibu, String tasteDetail, String taste, String aroma, String detail) {
+    public Alcohol(int alcoholNumber, String name, String barcode, String category, String volume, String price, BigDecimal content, BigDecimal avgStar, Integer ibu, String tasteDetail, String taste, String aroma, String detail, List<Taste> tastes, List<Scent> scents) {
         this.alcoholNumber = alcoholNumber;
         this.name = name;
         this.barcode = barcode;
@@ -35,9 +60,11 @@ public class Alcohol {
         this.avgStar = avgStar;
         this.ibu = ibu;
         this.tasteDetail = tasteDetail;
-        this.taste = taste;
-        this.aroma = aroma;
+//        this.taste = taste;
+//        this.aroma = aroma;
         this.detail = detail;
+        this.tastes = tastes;
+        this.scents = scents;
     }
 
     public int getAlcoholNumber() {
@@ -120,21 +147,21 @@ public class Alcohol {
         this.tasteDetail = tasteDetail;
     }
 
-    public String getTaste() {
-        return this.taste;
-    }
-
-    public void setTaste(String taste) {
-        this.taste = taste;
-    }
-
-    public String getAroma() {
-        return this.aroma;
-    }
-
-    public void setAroma(String aroma) {
-        this.aroma = aroma;
-    }
+//    public String getTaste() {
+//        return this.taste;
+//    }
+//
+//    public void setTaste(String taste) {
+//        this.taste = taste;
+//    }
+//
+//    public String getAroma() {
+//        return this.aroma;
+//    }
+//
+//    public void setAroma(String aroma) {
+//        this.aroma = aroma;
+//    }
 
     public String getDetail() {
         return this.detail;
@@ -144,4 +171,29 @@ public class Alcohol {
         this.detail = detail;
     }
 
+    public List<Taste> getTastes() {
+    	return this.tastes;
+    }
+    
+	public void setTastes(List<Taste> tastes) {
+		this.tastes = tastes;
+	}
+
+	public void setScents(List<Scent> scents) {
+		this.scents = scents;
+	}
+    
+	public List<Scent> getScents() {
+		return this.scents;
+	}
+	
+	public void addTaste(Taste taste) {
+	    this.tastes.add(taste);
+	    taste.getAlcohols().add(this); // 양방향 설정
+	}
+
+	public void addScent(Scent scent) {
+	    this.scents.add(scent);
+	    scent.getAlcohols().add(this);
+	}
 }

@@ -1,0 +1,726 @@
+리스트 딕셔너리
+[{'alcohol_number': 1, 'taste': '달콤,상큼,향긋', 'scent': '시칠리아산붉은블러드오렌지와망고,천연오렌지와열대과일향'}, {'alcohol_number': 2, 'taste': '다크초콜릿,바닐라,커피', 'scent': '바닐라,초콜릿,커피'}, {'alcohol_number': 3, 'taste': '달콤,코코넛,버터,바닐라', 'scent': '열대과일,코코넛'}, {'alcohol_number': 4, 'taste': '복숭아', 'scent': '복숭아'}, {'alcohol_number': 5, 'taste': '달콤,꼬냑,오렌지', 'scent': '오렌지,바닐라'}, {'alcohol_number': 6, 'taste': '리치', 'scent': '리치향'}, {'alcohol_number': 7, 'taste': '초콜릿,크림,바닐라', 'scent': '복합적인초콜릿,바닐라'}, {'alcohol_number': 8, 'taste': '멜론,시트러스,감귤', 'scent': '꿀,멜론'}, {'alcohol_number': 9, 'taste': '딸기,달콤', 'scent': '딸기,레몬'}, {'alcohol_number': 10, 'taste': '달콤한,쌉살한', 'scent': '오렌지,시트러스,감귤'}, {'alcohol_number': 11, 'taste': '레몬,달콤,상큼,쌉살', 'scent': '레몬제스트'}, {'alcohol_number': 12, 'taste': '오렌지,패션푸르트', 'scent': '망고,배,파인애플'}, {'alcohol_number': 13, 'taste': '패션프루트,딸기,리치', 'scent': '장미,과일'}, {'alcohol_number': 14, 'taste': '달콤한,허브', 'scent': '허브,풀내음'}, {'alcohol_number': 15, 'taste': '다크초콜릿,콜라,자두,계피', 'scent': '초콜릿,체리,감초,꽃향'}, {'alcohol_number': 16, 'taste': '단맛', 'scent': '허브'}, {'alcohol_number': 17, 'taste': '아니스', 'scent': '바닐라향'}, {'alcohol_number': 18, 'taste': '오렌지', 'scent': '시트러스,감귤,오렌지'}, {'alcohol_number': 19, 'taste': '커피', 'scent': '커피'}, {'alcohol_number': 20, 'taste': '달콤', 'scent': '카라멜'}, {'alcohol_number': 21, 'taste': '달콤', 'scent': '시나몬'}, {'alcohol_number': 22, 'taste': '달콤', 'scent': '시나몬'}, {'alcohol_number': 23, 'taste': '오렌지,시트러스', 'scent': '시트러스'}, {'alcohol_number': 24, 'taste': '복숭아', 'scent': '복숭아'}, {'alcohol_number': 25, 'taste': '커피', 'scent': '커피'}, {'alcohol_number': 26, 'taste': '달콤,오렌지,바닐라', 'scent': '벌꿀,시트러스'}, {'alcohol_number': 27, 'taste': '달콤,패션프루트,파인애플', 'scent': '패션프루트'}, {'alcohol_number': 28, 'taste': '라즈베리', 'scent': '라즈베리'}, {'alcohol_number': 29, 'taste': '세이지,시트러스,과일', 'scent': '청포도'}, {'alcohol_number': 30, 'taste': '체리', 'scent': '체리,바닐라'}, {'alcohol_number': 31, 'taste': '과일,체리', 'scent': '바닐라,블랙베리,체리'}, {'alcohol_number': 32, 'taste': '과일,계피', 'scent': '바닐라,커피'}, {'alcohol_number': 33, 'taste': '초콜릿,블랙베리,블루베리,자두,계피', 'scent': '후추,오크,삼나무'}, {'alcohol_number': 34, 'taste': None, 'scent': None}, {'alcohol_number': 35, 'taste': None, 'scent': None}, {'alcohol_number': 36, 'taste': None, 'scent': None}, {'alcohol_number': 37, 'taste': None, 'scent': None}, {'alcohol_number': 38, 'taste': None, 'scent': None}, {'alcohol_number': 39, 'taste': None, 'scent': None}, {'alcohol_number': 40, 'taste': None, 'scent': None}, {'alcohol_number': 41, 'taste': '감귤,버터스카치', 'scent': '리치,시트러스,사과파이,복숭아'}, {'alcohol_number': 42, 'taste': '복숭아', 'scent': '감귤,파인애플,자몽'}, {'alcohol_number': 43, 'taste': None, 'scent': '배,사트러스,구아바,바닐라'}, {'alcohol_number': 44, 'taste': None, 'scent': None}, {'alcohol_number': 45, 'taste': None, 'scent': '블루베리,석류,정향'}, {'alcohol_number': 46, 'taste': None, 'scent': '시트러스,아카시아'}, {'alcohol_number': 47, 'taste': None, 'scent': '체리,카라멜'}, {'alcohol_number': 48, 'taste': None, 'scent': '무화과,홍차,아몬드'}, {'alcohol_number': 49, 'taste': None, 'scent': '블랙체리,바닐라,무화과,코코아'}, {'alcohol_number': 50, 'taste': None, 'scent': '블랙베리,자두,후추,감초,미네랄'}, {'alcohol_number': 51, 'taste': '부드러움', 'scent': None}, {'alcohol_number': 52, 'taste': '드라이', 'scent': None}, {'alcohol_number': 53, 'taste': '과일및시트러스', 'scent': None}, {'alcohol_number': 54, 'taste': '쓴', 'scent': None}, {'alcohol_number': 55, 'taste': '쌉살', 'scent': '약간의단맛'}, {'alcohol_number': 56, 'taste': '달달함,향긋함', 'scent': None}, {'alcohol_number': 57, 'taste': '단맛,쓴맛,쌉살', 'scent': '과일,바나나'}, {'alcohol_number': 58, 'taste': '밀맥아,단맛', 'scent': '바나나,홉'}, {'alcohol_number': 59, 'taste': '쌉살한맛', 'scent': '아로마'}, {'alcohol_number': 60, 'taste': '쌉싸름한맛,고소한맛', 'scent': '홉'}, {'alcohol_number': 61, 'taste': '달면서쓴맛', 'scent': '스모키향,커피향'}, {'alcohol_number': 62, 'taste': '청포도,쓴맛,단맛', 'scent': '청포도향'}, {'alcohol_number': 63, 'taste': '단맛,구수한맛,쌉사름', 'scent': '과일향'}, {'alcohol_number': 64, 'taste': '단맛', 'scent': '시트러스,과일'}, {'alcohol_number': 65, 'taste': '새콤한맛', 'scent': '사과향'}, {'alcohol_number': 66, 'taste': '부드러운쓴맛', 'scent': None}, {'alcohol_number': 67, 'taste': None, 'scent': None}, {'alcohol_number': 68, 'taste': None, 'scent': None}, {'alcohol_number': 69, 'taste': None, 'scent': None}, {'alcohol_number': 70, 'taste': None, 'scent': None}, {'alcohol_number': 71, 'taste': '쓴맛', 'scent': '오렌지,홉'}, {'alcohol_number': 72, 'taste': '알프스허브,쓴맛', 'scent': '알프스허브,홉'}, {'alcohol_number': 73, 'taste': '구수한곡물,감칠', 'scent': '과실'}, {'alcohol_number': 74, 'taste': '새콤,단,잣,요거트', 'scent': None}, {'alcohol_number': 75, 'taste': '달콤,크리미', 'scent': None}, {'alcohol_number': 76, 'taste': '담백한맛,산미', 'scent': '달콤'}, {'alcohol_number': 77, 'taste': '단맛', 'scent': None}, {'alcohol_number': 78, 'taste': '단맛', 'scent': None}, {'alcohol_number': 79, 'taste': None, 'scent': None}, {'alcohol_number': 80, 'taste': '부드러움', 'scent': None}, {'alcohol_number': 81, 'taste': '밤,단맛', 'scent': '밤'}, {'alcohol_number': 82, 'taste': '한라봉,단맛', 'scent': '한라봉'}, {'alcohol_number': 83, 'taste': '땅꽁,고소한맛', 'scent': '땅꽁'}, {'alcohol_number': 84, 'taste': '유자,단맛', 'scent': '유자'}, {'alcohol_number': 85, 'taste': '단맛', 'scent': None}, {'alcohol_number': 86, 'taste': '호박,달콤', 'scent': '호박'}, {'alcohol_number': 87, 'taste': '단맛', 'scent': '옥수수'}, {'alcohol_number': 88, 'taste': '담백', 'scent': '메밀'}, {'alcohol_number': 89, 'taste': '오렌지,건포도,향신료', 'scent': '바닐라,스모키'}, {'alcohol_number': 90, 'taste': None, 'scent': '향신료'}, {'alcohol_number': 91, 'taste': '달콤,오크', 'scent': '바닐라,항신료'}, {'alcohol_number': 92, 'taste': None, 'scent': '과일,스모크,오크'}, {'alcohol_number': 93, 'taste': '오렌지,오크', 'scent': '생강,바닐라커스터드,오크'}, {'alcohol_number': 94, 'taste': '과일,계피,후추', 'scent': '레몬,정향,우드'}, {'alcohol_number': 95, 'taste': '다크초콜릿,꽃,스모크', 'scent': '말린과일,향신료,토피'}, {'alcohol_number': 96, 'taste': '마멀레이드,멜론,스모키,헤이즐넛', 'scent': '바닐라,감귤'}, {'alcohol_number': 97, 'taste': '사과꿀', 'scent': '부드러움,오렌지'}, {'alcohol_number': 98, 'taste': '과일,꿀,스파이시', 'scent': '과일,건포도'}, {'alcohol_number': 99, 'taste': '달콤', 'scent': '바닐라,카라멜'}, {'alcohol_number': 100, 'taste': '바닐라,견과류,스파이시', 'scent': '플로럴'}, {'alcohol_number': 101, 'taste': '바닐라,스파이시', 'scent': '오렌지,바닐라,꿀'}, {'alcohol_number': 102, 'taste': '바닐라,카라멜,향신료', 'scent': '달콤함,카라멜,바닐라'}, {'alcohol_number': 103, 'taste': '감귤,라임', 'scent': '카라멜'}, {'alcohol_number': 104, 'taste': '체리,곡물,옥수수', 'scent': '바닐라,꿀,토피'}, {'alcohol_number': 105, 'taste': '오크', 'scent': '달콤'}, {'alcohol_number': 106, 'taste': '버터스카치,크림,오크', 'scent': '배,과일'}, {'alcohol_number': 107, 'taste': '오크,토피,호밀', 'scent': '바닐라,민트,당밀'}, {'alcohol_number': 108, 'taste': '다크초코릿', 'scent': '스모크,레몬,꿀'}, {'alcohol_number': 109, 'taste': '정향,유칼립투스,초콜릿', 'scent': '바닐라'}]
+
+리스트 딕셔너리 리스트
+[{'alcohol_number': 1, 'taste': ['달콤', '상큼', '향긋'], 'scent': []}, {'alcohol_number': 2, 'taste': ['다크초콜릿', '바닐라', '커피'], 'scent': []}, {'alcohol_number': 3, 'taste': ['달콤', '코코넛', '버터', '바닐라'], 'scent': []}, {'alcohol_number': 4, 'taste': ['복숭아'], 'scent': []}, {'alcohol_number': 5, 'taste': ['달콤', '꼬냑', '오렌지'], 'scent': []}, {'alcohol_number': 6, 'taste': ['리치'], 'scent': []}, {'alcohol_number': 7, 'taste': ['초콜릿', '크림', '바닐라'], 'scent': []}, {'alcohol_number': 8, 'taste': ['멜론', '시트러스', '감귤'], 'scent': []}, {'alcohol_number': 9, 'taste': ['딸기', '달콤'], 'scent': []}, {'alcohol_number': 10, 'taste': ['달콤한', '쌉살한'], 'scent': []}, {'alcohol_number': 11, 'taste': ['레몬', '달콤', '상큼', '쌉살'], 'scent': []}, {'alcohol_number': 12, 'taste': ['오렌지', '패션푸르트'], 'scent': []}, {'alcohol_number': 13, 'taste': ['패션프루트', '딸기', '리치'], 'scent': []}, {'alcohol_number': 14, 'taste': ['달콤한', '허브'], 'scent': []}, {'alcohol_number': 15, 'taste': ['다크초콜릿', '콜라', '자두', '계피'], 'scent': []}, {'alcohol_number': 16, 'taste': ['단맛'], 'scent': []}, {'alcohol_number': 17, 'taste': ['아니스'], 'scent': []}, {'alcohol_number': 18, 'taste': ['오렌지'], 'scent': []}, {'alcohol_number': 19, 'taste': ['커피'], 'scent': []}, {'alcohol_number': 20, 'taste': ['달콤'], 'scent': []}, {'alcohol_number': 21, 'taste': ['달콤'], 'scent': []}, {'alcohol_number': 22, 'taste': ['달콤'], 'scent': []}, {'alcohol_number': 23, 'taste': ['오렌지', '시트러스'], 'scent': []}, {'alcohol_number': 24, 'taste': ['복숭아'], 'scent': []}, {'alcohol_number': 25, 'taste': ['커피'], 'scent': []}, {'alcohol_number': 26, 'taste': ['달콤', '오렌지', '바닐라'], 'scent': []}, {'alcohol_number': 27, 'taste': ['달콤', '패션프루트', '파인애플'], 'scent': []}, {'alcohol_number': 28, 'taste': ['라즈베리'], 'scent': []}, {'alcohol_number': 29, 'taste': ['세이지', '시트러스', '과일'], 'scent': []}, {'alcohol_number': 30, 'taste': ['체리'], 'scent': []}, {'alcohol_number': 31, 'taste': ['과일', '체리'], 'scent': []}, {'alcohol_number': 32, 'taste': ['과일', '계피'], 'scent': []}, {'alcohol_number': 33, 'taste': ['초콜릿', '블랙베리', '블루베리', '자두', '계피'], 'scent': []}, {'alcohol_number': 34, 'taste': [], 'scent': None}, {'alcohol_number': 35, 'taste': [], 'scent': None}, {'alcohol_number': 36, 'taste': [], 'scent': None}, {'alcohol_number': 37, 'taste': [], 'scent': None}, {'alcohol_number': 38, 'taste': [], 'scent': None}, {'alcohol_number': 39, 'taste': [], 'scent': None}, {'alcohol_number': 40, 'taste': [], 'scent': None}, {'alcohol_number': 41, 'taste': ['감귤', '버터스카치'], 'scent': []}, {'alcohol_number': 42, 'taste': ['복숭아'], 'scent': []}, {'alcohol_number': 43, 'taste': [], 'scent': []}, {'alcohol_number': 44, 'taste': [], 'scent': None}, {'alcohol_number': 45, 'taste': [], 'scent': []}, {'alcohol_number': 46, 'taste': [], 'scent': []}, {'alcohol_number': 47, 'taste': [], 'scent': []}, {'alcohol_number': 48, 'taste': [], 'scent': []}, {'alcohol_number': 49, 'taste': [], 'scent': []}, {'alcohol_number': 50, 'taste': [], 'scent': []}, {'alcohol_number': 51, 'taste': ['부드러움'], 'scent': None}, {'alcohol_number': 52, 'taste': ['드라이'], 'scent': None}, {'alcohol_number': 53, 'taste': ['과일및시트러스'], 'scent': None}, {'alcohol_number': 54, 'taste': ['쓴'], 'scent': None}, {'alcohol_number': 55, 'taste': ['쌉살'], 'scent': []}, {'alcohol_number': 56, 'taste': ['달달함', '향긋함'], 'scent': None}, {'alcohol_number': 57, 'taste': ['단맛', '쓴맛', '쌉살'], 'scent': []}, {'alcohol_number': 58, 'taste': ['밀맥아', '단맛'], 'scent': []}, {'alcohol_number': 59, 'taste': ['쌉살한맛'], 'scent': []}, {'alcohol_number': 60, 'taste': ['쌉싸름한맛', '고소한맛'], 'scent': []}, {'alcohol_number': 61, 'taste': ['달면서쓴맛'], 'scent': []}, {'alcohol_number': 62, 'taste': ['청포도', '쓴맛', '단맛'], 'scent': []}, {'alcohol_number': 63, 'taste': ['단맛', '구수한맛', '쌉사름'], 'scent': []}, {'alcohol_number': 64, 'taste': ['단맛'], 'scent': []}, {'alcohol_number': 65, 'taste': ['새콤한맛'], 'scent': []}, {'alcohol_number': 66, 'taste': ['부드러운쓴맛'], 'scent': None}, {'alcohol_number': 67, 'taste': [], 'scent': None}, {'alcohol_number': 68, 'taste': [], 'scent': None}, {'alcohol_number': 69, 'taste': [], 'scent': None}, {'alcohol_number': 70, 'taste': [], 'scent': None}, {'alcohol_number': 71, 'taste': ['쓴맛'], 'scent': []}, {'alcohol_number': 72, 'taste': ['알프스허브', '쓴맛'], 'scent': []}, {'alcohol_number': 73, 'taste': ['구수한곡물', '감칠'], 'scent': []}, {'alcohol_number': 74, 'taste': ['새콤', '단', '잣', '요거트'], 'scent': None}, {'alcohol_number': 75, 'taste': ['달콤', '크리미'], 'scent': None}, {'alcohol_number': 76, 'taste': ['담백한맛', '산미'], 'scent': []}, {'alcohol_number': 77, 'taste': ['단맛'], 'scent': None}, {'alcohol_number': 78, 'taste': ['단맛'], 'scent': None}, {'alcohol_number': 79, 'taste': [], 'scent': None}, {'alcohol_number': 80, 'taste': ['부드러움'], 'scent': None}, {'alcohol_number': 81, 'taste': ['밤', '단맛'], 'scent': []}, {'alcohol_number': 82, 'taste': ['한라봉', '단맛'], 'scent': []}, {'alcohol_number': 83, 'taste': ['땅꽁', '고소한맛'], 'scent': []}, {'alcohol_number': 84, 'taste': ['유자', '단맛'], 'scent': []}, {'alcohol_number': 85, 'taste': ['단맛'], 'scent': None}, {'alcohol_number': 86, 'taste': ['호박', '달콤'], 'scent': []}, {'alcohol_number': 87, 'taste': ['단맛'], 'scent': []}, {'alcohol_number': 88, 'taste': ['담백'], 'scent': []}, {'alcohol_number': 89, 'taste': ['오렌지', '건포도', '향신료'], 'scent': []}, {'alcohol_number': 90, 'taste': [], 'scent': []}, {'alcohol_number': 91, 'taste': ['달콤', '오크'], 'scent': []}, {'alcohol_number': 92, 'taste': [], 'scent': []}, {'alcohol_number': 93, 'taste': ['오렌지', '오크'], 'scent': []}, {'alcohol_number': 94, 'taste': ['과일', '계피', '후추'], 'scent': []}, {'alcohol_number': 95, 'taste': ['다크초콜릿', '꽃', '스모크'], 'scent': []}, {'alcohol_number': 96, 'taste': ['마멀레이드', '멜론', '스모키', '헤이즐넛'], 'scent': []}, {'alcohol_number': 97, 'taste': ['사과꿀'], 'scent': []}, {'alcohol_number': 98, 'taste': ['과일', '꿀', '스파이시'], 'scent': []}, {'alcohol_number': 99, 'taste': ['달콤'], 'scent': []}, {'alcohol_number': 100, 'taste': ['바닐라', '견과류', '스파이시'], 'scent': []}, {'alcohol_number': 101, 'taste': ['바닐라', '스파이시'], 'scent': []}, {'alcohol_number': 102, 'taste': ['바닐라', '카라멜', '향신료'], 'scent': []}, {'alcohol_number': 103, 'taste': ['감귤', '라임'], 'scent': []}, {'alcohol_number': 104, 'taste': ['체리', '곡물', '옥수수'], 'scent': []}, {'alcohol_number': 105, 'taste': ['오크'], 'scent': []}, {'alcohol_number': 106, 'taste': ['버터스카치', '크림', '오크'], 'scent': []}, {'alcohol_number': 107, 'taste': ['오크', '토피', '호밀'], 'scent': []}, {'alcohol_number': 108, 'taste': ['다크초코릿'], 'scent': []}, {'alcohol_number': 109, 'taste': ['정향', '유칼립투스', '초콜릿'], 'scent': []}]
+
+Scent insert 문
+INSERT INTO taste (taste_info) VALUES ('감귤');
+INSERT INTO taste (taste_info) VALUES ('감칠');
+INSERT INTO taste (taste_info) VALUES ('건포도');
+INSERT INTO taste (taste_info) VALUES ('견과류');
+INSERT INTO taste (taste_info) VALUES ('계피');
+INSERT INTO taste (taste_info) VALUES ('고소한맛');
+INSERT INTO taste (taste_info) VALUES ('곡물');
+INSERT INTO taste (taste_info) VALUES ('과일');
+INSERT INTO taste (taste_info) VALUES ('과일및시트러스');
+INSERT INTO taste (taste_info) VALUES ('구수한곡물');
+INSERT INTO taste (taste_info) VALUES ('구수한맛');
+INSERT INTO taste (taste_info) VALUES ('꼬냑');
+INSERT INTO taste (taste_info) VALUES ('꽃');
+INSERT INTO taste (taste_info) VALUES ('꿀');
+INSERT INTO taste (taste_info) VALUES ('다크초코릿');
+INSERT INTO taste (taste_info) VALUES ('다크초콜릿');
+INSERT INTO taste (taste_info) VALUES ('단');
+INSERT INTO taste (taste_info) VALUES ('단맛');
+INSERT INTO taste (taste_info) VALUES ('달달함');
+INSERT INTO taste (taste_info) VALUES ('달면서쓴맛');
+INSERT INTO taste (taste_info) VALUES ('달콤');
+INSERT INTO taste (taste_info) VALUES ('달콤한');
+INSERT INTO taste (taste_info) VALUES ('담백');
+INSERT INTO taste (taste_info) VALUES ('담백한맛');
+INSERT INTO taste (taste_info) VALUES ('드라이');
+INSERT INTO taste (taste_info) VALUES ('딸기');
+INSERT INTO taste (taste_info) VALUES ('땅꽁');
+INSERT INTO taste (taste_info) VALUES ('라임');
+INSERT INTO taste (taste_info) VALUES ('라즈베리');
+INSERT INTO taste (taste_info) VALUES ('레몬');
+INSERT INTO taste (taste_info) VALUES ('리치');
+INSERT INTO taste (taste_info) VALUES ('마멀레이드');
+INSERT INTO taste (taste_info) VALUES ('멜론');
+INSERT INTO taste (taste_info) VALUES ('밀맥아');
+INSERT INTO taste (taste_info) VALUES ('바닐라');
+INSERT INTO taste (taste_info) VALUES ('밤');
+INSERT INTO taste (taste_info) VALUES ('버터');
+INSERT INTO taste (taste_info) VALUES ('버터스카치');
+INSERT INTO taste (taste_info) VALUES ('복숭아');
+INSERT INTO taste (taste_info) VALUES ('부드러운쓴맛');
+INSERT INTO taste (taste_info) VALUES ('부드러움');
+INSERT INTO taste (taste_info) VALUES ('블랙베리');
+INSERT INTO taste (taste_info) VALUES ('블루베리');
+INSERT INTO taste (taste_info) VALUES ('사과꿀');
+INSERT INTO taste (taste_info) VALUES ('산미');
+INSERT INTO taste (taste_info) VALUES ('상큼');
+INSERT INTO taste (taste_info) VALUES ('새콤');
+INSERT INTO taste (taste_info) VALUES ('새콤한맛');
+INSERT INTO taste (taste_info) VALUES ('세이지');
+INSERT INTO taste (taste_info) VALUES ('스모크');
+INSERT INTO taste (taste_info) VALUES ('스모키');
+INSERT INTO taste (taste_info) VALUES ('스파이시');
+INSERT INTO taste (taste_info) VALUES ('시트러스');
+INSERT INTO taste (taste_info) VALUES ('쌉사름');
+INSERT INTO taste (taste_info) VALUES ('쌉살');
+INSERT INTO taste (taste_info) VALUES ('쌉살한');
+INSERT INTO taste (taste_info) VALUES ('쌉살한맛');
+INSERT INTO taste (taste_info) VALUES ('쌉싸름한맛');
+INSERT INTO taste (taste_info) VALUES ('쓴');
+INSERT INTO taste (taste_info) VALUES ('쓴맛');
+INSERT INTO taste (taste_info) VALUES ('아니스');
+INSERT INTO taste (taste_info) VALUES ('알프스허브');
+INSERT INTO taste (taste_info) VALUES ('오렌지');
+INSERT INTO taste (taste_info) VALUES ('오크');
+INSERT INTO taste (taste_info) VALUES ('옥수수');
+INSERT INTO taste (taste_info) VALUES ('요거트');
+INSERT INTO taste (taste_info) VALUES ('유자');
+INSERT INTO taste (taste_info) VALUES ('유칼립투스');
+INSERT INTO taste (taste_info) VALUES ('자두');
+INSERT INTO taste (taste_info) VALUES ('잣');
+INSERT INTO taste (taste_info) VALUES ('정향');
+INSERT INTO taste (taste_info) VALUES ('청포도');
+INSERT INTO taste (taste_info) VALUES ('체리');
+INSERT INTO taste (taste_info) VALUES ('초콜릿');
+INSERT INTO taste (taste_info) VALUES ('카라멜');
+INSERT INTO taste (taste_info) VALUES ('커피');
+INSERT INTO taste (taste_info) VALUES ('코코넛');
+INSERT INTO taste (taste_info) VALUES ('콜라');
+INSERT INTO taste (taste_info) VALUES ('크리미');
+INSERT INTO taste (taste_info) VALUES ('크림');
+INSERT INTO taste (taste_info) VALUES ('토피');
+INSERT INTO taste (taste_info) VALUES ('파인애플');
+INSERT INTO taste (taste_info) VALUES ('패션푸르트');
+INSERT INTO taste (taste_info) VALUES ('패션프루트');
+INSERT INTO taste (taste_info) VALUES ('한라봉');
+INSERT INTO taste (taste_info) VALUES ('향긋');
+INSERT INTO taste (taste_info) VALUES ('향긋함');
+INSERT INTO taste (taste_info) VALUES ('향신료');
+INSERT INTO taste (taste_info) VALUES ('허브');
+INSERT INTO taste (taste_info) VALUES ('헤이즐넛');
+INSERT INTO taste (taste_info) VALUES ('호밀');
+INSERT INTO taste (taste_info) VALUES ('호박');
+INSERT INTO taste (taste_info) VALUES ('후추');
+
+taset insert 문
+INSERT INTO scent (scent_info) VALUES ('감귤');
+INSERT INTO scent (scent_info) VALUES ('감초');
+INSERT INTO scent (scent_info) VALUES ('건포도');
+INSERT INTO scent (scent_info) VALUES ('과실');
+INSERT INTO scent (scent_info) VALUES ('과일');
+INSERT INTO scent (scent_info) VALUES ('과일향');
+INSERT INTO scent (scent_info) VALUES ('구아바');
+INSERT INTO scent (scent_info) VALUES ('꽃향');
+INSERT INTO scent (scent_info) VALUES ('꿀');
+INSERT INTO scent (scent_info) VALUES ('달콤');
+INSERT INTO scent (scent_info) VALUES ('달콤함');
+INSERT INTO scent (scent_info) VALUES ('당밀');
+INSERT INTO scent (scent_info) VALUES ('딸기');
+INSERT INTO scent (scent_info) VALUES ('땅꽁');
+INSERT INTO scent (scent_info) VALUES ('라즈베리');
+INSERT INTO scent (scent_info) VALUES ('레몬');
+INSERT INTO scent (scent_info) VALUES ('레몬제스트');
+INSERT INTO scent (scent_info) VALUES ('리치');
+INSERT INTO scent (scent_info) VALUES ('리치향');
+INSERT INTO scent (scent_info) VALUES ('말린과일');
+INSERT INTO scent (scent_info) VALUES ('망고');
+INSERT INTO scent (scent_info) VALUES ('메밀');
+INSERT INTO scent (scent_info) VALUES ('멜론');
+INSERT INTO scent (scent_info) VALUES ('무화과');
+INSERT INTO scent (scent_info) VALUES ('미네랄');
+INSERT INTO scent (scent_info) VALUES ('민트');
+INSERT INTO scent (scent_info) VALUES ('바나나');
+INSERT INTO scent (scent_info) VALUES ('바닐라');
+INSERT INTO scent (scent_info) VALUES ('바닐라커스터드');
+INSERT INTO scent (scent_info) VALUES ('바닐라향');
+INSERT INTO scent (scent_info) VALUES ('밤');
+INSERT INTO scent (scent_info) VALUES ('배');
+INSERT INTO scent (scent_info) VALUES ('벌꿀');
+INSERT INTO scent (scent_info) VALUES ('복숭아');
+INSERT INTO scent (scent_info) VALUES ('복합적인초콜릿');
+INSERT INTO scent (scent_info) VALUES ('부드러움');
+INSERT INTO scent (scent_info) VALUES ('블랙베리');
+INSERT INTO scent (scent_info) VALUES ('블랙체리');
+INSERT INTO scent (scent_info) VALUES ('블루베리');
+INSERT INTO scent (scent_info) VALUES ('사과파이');
+INSERT INTO scent (scent_info) VALUES ('사과향');
+INSERT INTO scent (scent_info) VALUES ('사트러스');
+INSERT INTO scent (scent_info) VALUES ('삼나무');
+INSERT INTO scent (scent_info) VALUES ('생강');
+INSERT INTO scent (scent_info) VALUES ('석류');
+INSERT INTO scent (scent_info) VALUES ('스모크');
+INSERT INTO scent (scent_info) VALUES ('스모키');
+INSERT INTO scent (scent_info) VALUES ('스모키향');
+INSERT INTO scent (scent_info) VALUES ('시나몬');
+INSERT INTO scent (scent_info) VALUES ('시칠리아산붉은블러드오렌지와망고');
+INSERT INTO scent (scent_info) VALUES ('시트러스');
+INSERT INTO scent (scent_info) VALUES ('아로마');
+INSERT INTO scent (scent_info) VALUES ('아몬드');
+INSERT INTO scent (scent_info) VALUES ('아카시아');
+INSERT INTO scent (scent_info) VALUES ('알프스허브');
+INSERT INTO scent (scent_info) VALUES ('약간의단맛');
+INSERT INTO scent (scent_info) VALUES ('열대과일');
+INSERT INTO scent (scent_info) VALUES ('오렌지');
+INSERT INTO scent (scent_info) VALUES ('오크');
+INSERT INTO scent (scent_info) VALUES ('옥수수');
+INSERT INTO scent (scent_info) VALUES ('우드');
+INSERT INTO scent (scent_info) VALUES ('유자');
+INSERT INTO scent (scent_info) VALUES ('자두');
+INSERT INTO scent (scent_info) VALUES ('자몽');
+INSERT INTO scent (scent_info) VALUES ('장미');
+INSERT INTO scent (scent_info) VALUES ('정향');
+INSERT INTO scent (scent_info) VALUES ('천연오렌지와열대과일향');
+INSERT INTO scent (scent_info) VALUES ('청포도');
+INSERT INTO scent (scent_info) VALUES ('청포도향');
+INSERT INTO scent (scent_info) VALUES ('체리');
+INSERT INTO scent (scent_info) VALUES ('초콜릿');
+INSERT INTO scent (scent_info) VALUES ('카라멜');
+INSERT INTO scent (scent_info) VALUES ('커피');
+INSERT INTO scent (scent_info) VALUES ('커피향');
+INSERT INTO scent (scent_info) VALUES ('코코넛');
+INSERT INTO scent (scent_info) VALUES ('코코아');
+INSERT INTO scent (scent_info) VALUES ('토피');
+INSERT INTO scent (scent_info) VALUES ('파인애플');
+INSERT INTO scent (scent_info) VALUES ('패션프루트');
+INSERT INTO scent (scent_info) VALUES ('풀내음');
+INSERT INTO scent (scent_info) VALUES ('플로럴');
+INSERT INTO scent (scent_info) VALUES ('한라봉');
+INSERT INTO scent (scent_info) VALUES ('항신료');
+INSERT INTO scent (scent_info) VALUES ('향신료');
+INSERT INTO scent (scent_info) VALUES ('허브');
+INSERT INTO scent (scent_info) VALUES ('호박');
+INSERT INTO scent (scent_info) VALUES ('홉');
+INSERT INTO scent (scent_info) VALUES ('홍차');
+INSERT INTO scent (scent_info) VALUES ('후추');
+
+
+
+
+
+
+
+
+taste_data = [
+    {'taste_number': 1, 'taste_info': '감귤'},
+    {'taste_number': 2, 'taste_info': '감칠'},
+    {'taste_number': 3, 'taste_info': '건포도'},
+    {'taste_number': 4, 'taste_info': '견과류'},
+    {'taste_number': 5, 'taste_info': '계피'},
+    {'taste_number': 6, 'taste_info': '고소한맛'},
+    {'taste_number': 7, 'taste_info': '곡물'},
+    {'taste_number': 8, 'taste_info': '과일'},
+    {'taste_number': 9, 'taste_info': '과일및시트러스'},
+    {'taste_number': 10, 'taste_info': '구수한곡물'},
+    {'taste_number': 11, 'taste_info': '구수한맛'},
+    {'taste_number': 12, 'taste_info': '꼬냑'},
+    {'taste_number': 13, 'taste_info': '꽃'},
+    {'taste_number': 14, 'taste_info': '꿀'},
+    {'taste_number': 15, 'taste_info': '다크초코릿'},
+    {'taste_number': 16, 'taste_info': '다크초콜릿'},
+    {'taste_number': 17, 'taste_info': '단'},
+    {'taste_number': 18, 'taste_info': '단맛'},
+    {'taste_number': 19, 'taste_info': '달달함'},
+    {'taste_number': 20, 'taste_info': '달면서쓴맛'},
+    {'taste_number': 21, 'taste_info': '달콤'},
+    {'taste_number': 22, 'taste_info': '달콤한'},
+    {'taste_number': 23, 'taste_info': '담백'},
+    {'taste_number': 24, 'taste_info': '담백한맛'},
+    {'taste_number': 25, 'taste_info': '드라이'},
+    {'taste_number': 26, 'taste_info': '딸기'},
+    {'taste_number': 27, 'taste_info': '땅꽁'},
+    {'taste_number': 28, 'taste_info': '라임'},
+    {'taste_number': 29, 'taste_info': '라즈베리'},
+    {'taste_number': 30, 'taste_info': '레몬'},
+    {'taste_number': 31, 'taste_info': '리치'},
+    {'taste_number': 32, 'taste_info': '마멀레이드'},
+    {'taste_number': 33, 'taste_info': '멜론'},
+    {'taste_number': 34, 'taste_info': '밀맥아'},
+    {'taste_number': 35, 'taste_info': '바닐라'},
+    {'taste_number': 36, 'taste_info': '밤'},
+    {'taste_number': 37, 'taste_info': '버터'},
+    {'taste_number': 38, 'taste_info': '버터스카치'},
+    {'taste_number': 39, 'taste_info': '복숭아'},
+    {'taste_number': 40, 'taste_info': '부드러운쓴맛'},
+    {'taste_number': 41, 'taste_info': '부드러움'},
+    {'taste_number': 42, 'taste_info': '블랙베리'},
+    {'taste_number': 43, 'taste_info': '블루베리'},
+    {'taste_number': 44, 'taste_info': '사과꿀'},
+    {'taste_number': 45, 'taste_info': '산미'},
+    {'taste_number': 46, 'taste_info': '상큼'},
+    {'taste_number': 47, 'taste_info': '새콤'},
+    {'taste_number': 48, 'taste_info': '새콤한맛'},
+    {'taste_number': 49, 'taste_info': '세이지'},
+    {'taste_number': 50, 'taste_info': '스모크'},
+    {'taste_number': 51, 'taste_info': '스모키'},
+    {'taste_number': 52, 'taste_info': '스파이시'},
+    {'taste_number': 53, 'taste_info': '시트러스'},
+    {'taste_number': 54, 'taste_info': '쌉사름'},
+    {'taste_number': 55, 'taste_info': '쌉살'},
+    {'taste_number': 56, 'taste_info': '쌉살한'},
+    {'taste_number': 57, 'taste_info': '쌉살한맛'},
+    {'taste_number': 58, 'taste_info': '쌉싸름한맛'},
+    {'taste_number': 59, 'taste_info': '쓴'},
+    {'taste_number': 60, 'taste_info': '쓴맛'},
+    {'taste_number': 61, 'taste_info': '아니스'},
+    {'taste_number': 62, 'taste_info': '알프스허브'},
+    {'taste_number': 63, 'taste_info': '오렌지'},
+    {'taste_number': 64, 'taste_info': '오크'},
+    {'taste_number': 65, 'taste_info': '옥수수'},
+    {'taste_number': 66, 'taste_info': '요거트'},
+    {'taste_number': 67, 'taste_info': '유자'},
+    {'taste_number': 68, 'taste_info': '유칼립투스'},
+    {'taste_number': 69, 'taste_info': '자두'},
+    {'taste_number': 70, 'taste_info': '잣'},
+    {'taste_number': 71, 'taste_info': '정향'},
+    {'taste_number': 72, 'taste_info': '청포도'},
+    {'taste_number': 73, 'taste_info': '체리'},
+    {'taste_number': 74, 'taste_info': '초콜릿'},
+    {'taste_number': 75, 'taste_info': '카라멜'},
+    {'taste_number': 76, 'taste_info': '커피'},
+    {'taste_number': 77, 'taste_info': '코코넛'},
+    {'taste_number': 78, 'taste_info': '콜라'},
+    {'taste_number': 79, 'taste_info': '크리미'},
+    {'taste_number': 80, 'taste_info': '크림'},
+    {'taste_number': 81, 'taste_info': '토피'},
+    {'taste_number': 82, 'taste_info': '파인애플'},
+    {'taste_number': 83, 'taste_info': '패션푸르트'},
+    {'taste_number': 84, 'taste_info': '패션프루트'},
+    {'taste_number': 85, 'taste_info': '한라봉'},
+    {'taste_number': 86, 'taste_info': '향긋'},
+    {'taste_number': 87, 'taste_info': '향긋함'},
+    {'taste_number': 88, 'taste_info': '향신료'},
+    {'taste_number': 89, 'taste_info': '허브'},
+    {'taste_number': 90, 'taste_info': '헤이즐넛'},
+    {'taste_number': 91, 'taste_info': '호밀'},
+    {'taste_number': 92, 'taste_info': '호박'},
+    {'taste_number': 93, 'taste_info': '후추'},
+]
+
+
+scent_data = [
+    {'scent_number': 1, 'scent_info': '감귤'},
+    {'scent_number': 2, 'scent_info': '감초'},
+    {'scent_number': 3, 'scent_info': '건포도'},
+    {'scent_number': 4, 'scent_info': '과실'},
+    {'scent_number': 5, 'scent_info': '과일'},
+    {'scent_number': 6, 'scent_info': '과일향'},
+    {'scent_number': 7, 'scent_info': '구아바'},
+    {'scent_number': 8, 'scent_info': '꽃향'},
+    {'scent_number': 9, 'scent_info': '꿀'},
+    {'scent_number': 10, 'scent_info': '달콤'},
+    {'scent_number': 11, 'scent_info': '달콤함'},
+    {'scent_number': 12, 'scent_info': '당밀'},
+    {'scent_number': 13, 'scent_info': '딸기'},
+    {'scent_number': 14, 'scent_info': '땅꽁'},
+    {'scent_number': 15, 'scent_info': '라즈베리'},
+    {'scent_number': 16, 'scent_info': '레몬'},
+    {'scent_number': 17, 'scent_info': '레몬제스트'},
+    {'scent_number': 18, 'scent_info': '리치'},
+    {'scent_number': 19, 'scent_info': '리치향'},
+    {'scent_number': 20, 'scent_info': '말린과일'},
+    {'scent_number': 21, 'scent_info': '망고'},
+    {'scent_number': 22, 'scent_info': '메밀'},
+    {'scent_number': 23, 'scent_info': '멜론'},
+    {'scent_number': 24, 'scent_info': '무화과'},
+    {'scent_number': 25, 'scent_info': '미네랄'},
+    {'scent_number': 26, 'scent_info': '민트'},
+    {'scent_number': 27, 'scent_info': '바나나'},
+    {'scent_number': 28, 'scent_info': '바닐라'},
+    {'scent_number': 29, 'scent_info': '바닐라커스터드'},
+    {'scent_number': 30, 'scent_info': '바닐라향'},
+    {'scent_number': 31, 'scent_info': '밤'},
+    {'scent_number': 32, 'scent_info': '배'},
+    {'scent_number': 33, 'scent_info': '벌꿀'},
+    {'scent_number': 34, 'scent_info': '복숭아'},
+    {'scent_number': 35, 'scent_info': '복합적인초콜릿'},
+    {'scent_number': 36, 'scent_info': '부드러움'},
+    {'scent_number': 37, 'scent_info': '블랙베리'},
+    {'scent_number': 38, 'scent_info': '블랙체리'},
+    {'scent_number': 39, 'scent_info': '블루베리'},
+    {'scent_number': 40, 'scent_info': '사과파이'},
+    {'scent_number': 41, 'scent_info': '사과향'},
+    {'scent_number': 42, 'scent_info': '사트러스'},
+    {'scent_number': 43, 'scent_info': '삼나무'},
+    {'scent_number': 44, 'scent_info': '생강'},
+    {'scent_number': 45, 'scent_info': '석류'},
+    {'scent_number': 46, 'scent_info': '스모크'},
+    {'scent_number': 47, 'scent_info': '스모키'},
+    {'scent_number': 48, 'scent_info': '스모키향'},
+    {'scent_number': 49, 'scent_info': '시나몬'},
+    {'scent_number': 50, 'scent_info': '시트러스'},
+    {'scent_number': 51, 'scent_info': '아로마'},
+    {'scent_number': 52, 'scent_info': '아몬드'},
+    {'scent_number': 53, 'scent_info': '아카시아'},
+    {'scent_number': 54, 'scent_info': '알프스허브'},
+    {'scent_number': 55, 'scent_info': '약간의단맛'},
+    {'scent_number': 56, 'scent_info': '열대과일'},
+    {'scent_number': 57, 'scent_info': '오렌지'},
+    {'scent_number': 58, 'scent_info': '오크'},
+    {'scent_number': 59, 'scent_info': '옥수수'},
+    {'scent_number': 60, 'scent_info': '우드'},
+    {'scent_number': 61, 'scent_info': '유자'},
+    {'scent_number': 62, 'scent_info': '자두'},
+    {'scent_number': 63, 'scent_info': '자몽'},
+    {'scent_number': 64, 'scent_info': '장미'},
+    {'scent_number': 65, 'scent_info': '정향'},
+    {'scent_number': 66, 'scent_info': '청포도'},
+    {'scent_number': 67, 'scent_info': '청포도향'},
+    {'scent_number': 68, 'scent_info': '체리'},
+    {'scent_number': 69, 'scent_info': '초콜릿'},
+    {'scent_number': 70, 'scent_info': '카라멜'},
+    {'scent_number': 71, 'scent_info': '커피'},
+    {'scent_number': 72, 'scent_info': '커피향'},
+    {'scent_number': 73, 'scent_info': '코코넛'},
+    {'scent_number': 74, 'scent_info': '코코아'},
+    {'scent_number': 75, 'scent_info': '토피'},
+    {'scent_number': 76, 'scent_info': '파인애플'},
+    {'scent_number': 77, 'scent_info': '패션프루트'},
+    {'scent_number': 78, 'scent_info': '풀내음'},
+    {'scent_number': 79, 'scent_info': '플로럴'},
+    {'scent_number': 80, 'scent_info': '한라봉'},
+    {'scent_number': 81, 'scent_info': '항신료'},
+    {'scent_number': 82, 'scent_info': '향신료'},
+    {'scent_number': 83, 'scent_info': '허브'},
+    {'scent_number': 84, 'scent_info': '호박'},
+    {'scent_number': 85, 'scent_info': '홉'},
+    {'scent_number': 86, 'scent_info': '홍차'},
+    {'scent_number': 87, 'scent_info': '후추'},
+]
+
+
+
+alcohol_taste insert 문
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (1, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (1, 46);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (1, 86);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (2, 16);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (2, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (2, 76);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (3, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (3, 77);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (3, 37);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (3, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (4, 39);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (5, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (5, 12);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (5, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (6, 31);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (7, 74);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (7, 80);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (7, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (8, 33);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (8, 53);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (8, 1);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (9, 26);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (9, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (10, 22);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (10, 56);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (11, 30);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (11, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (11, 46);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (11, 55);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (12, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (12, 83);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (13, 84);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (13, 26);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (13, 31);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (14, 22);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (14, 89);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (15, 16);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (15, 78);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (15, 69);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (15, 5);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (16, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (17, 61);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (18, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (19, 76);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (20, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (21, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (22, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (23, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (23, 53);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (24, 39);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (25, 76);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (26, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (26, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (26, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (27, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (27, 84);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (27, 82);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (28, 29);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (29, 49);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (29, 53);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (29, 8);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (30, 73);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (31, 8);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (31, 73);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (32, 8);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (32, 5);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (33, 74);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (33, 42);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (33, 43);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (33, 69);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (33, 5);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (41, 1);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (41, 38);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (42, 39);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (51, 41);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (52, 25);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (53, 9);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (54, 59);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (55, 55);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (56, 19);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (56, 87);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (57, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (57, 60);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (57, 55);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (58, 34);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (58, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (59, 57);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (60, 58);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (60, 6);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (61, 20);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (62, 72);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (62, 60);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (62, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (63, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (63, 11);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (63, 54);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (64, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (65, 48);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (66, 40);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (71, 60);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (72, 62);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (72, 60);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (73, 10);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (73, 2);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (74, 47);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (74, 17);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (74, 70);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (74, 66);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (75, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (75, 79);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (76, 24);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (76, 45);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (77, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (78, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (80, 41);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (81, 36);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (81, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (82, 85);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (82, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (83, 27);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (83, 6);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (84, 67);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (84, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (85, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (86, 92);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (86, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (87, 18);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (88, 23);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (89, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (89, 3);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (89, 88);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (91, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (91, 64);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (93, 63);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (93, 64);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (94, 8);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (94, 5);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (94, 93);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (95, 16);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (95, 13);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (95, 50);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (96, 32);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (96, 33);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (96, 51);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (96, 90);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (97, 44);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (98, 8);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (98, 14);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (98, 52);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (99, 21);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (100, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (100, 4);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (100, 52);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (101, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (101, 52);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (102, 35);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (102, 75);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (102, 88);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (103, 1);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (103, 28);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (104, 73);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (104, 7);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (104, 65);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (105, 64);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (106, 38);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (106, 80);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (106, 64);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (107, 64);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (107, 81);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (107, 91);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (108, 15);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (109, 71);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (109, 68);
+INSERT INTO alcohol_taste (alcohol_number, taste_number) VALUES (109, 74);
+
+
+alcohol_scent insert 문
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (2, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (2, 69);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (2, 71);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (3, 56);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (3, 73);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (4, 34);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (5, 57);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (5, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (6, 19);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (7, 35);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (7, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (8, 9);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (8, 23);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (9, 13);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (9, 16);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (10, 57);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (10, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (10, 1);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (11, 17);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (12, 21);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (12, 32);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (12, 76);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (13, 64);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (13, 5);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (14, 83);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (14, 78);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (15, 69);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (15, 68);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (15, 2);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (15, 8);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (16, 83);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (17, 30);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (18, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (18, 1);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (18, 57);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (19, 71);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (20, 70);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (21, 49);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (22, 49);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (23, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (24, 34);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (25, 71);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (26, 33);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (26, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (27, 77);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (28, 15);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (29, 66);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (30, 68);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (30, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (31, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (31, 37);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (31, 68);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (32, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (32, 71);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (33, 87);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (33, 58);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (33, 43);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (41, 18);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (41, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (41, 40);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (41, 34);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (42, 1);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (42, 76);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (42, 63);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (43, 32);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (43, 42);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (43, 7);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (43, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (45, 39);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (45, 45);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (45, 65);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (46, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (46, 53);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (47, 68);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (47, 70);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (48, 24);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (48, 86);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (48, 52);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (49, 38);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (49, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (49, 24);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (49, 74);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (50, 37);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (50, 62);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (50, 87);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (50, 2);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (50, 25);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (55, 55);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (57, 5);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (57, 27);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (58, 27);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (58, 85);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (59, 51);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (60, 85);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (61, 48);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (61, 72);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (62, 67);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (63, 6);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (64, 50);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (64, 5);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (65, 41);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (71, 57);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (71, 85);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (72, 54);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (72, 85);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (73, 4);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (76, 10);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (81, 31);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (82, 80);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (83, 14);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (84, 61);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (86, 84);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (87, 59);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (88, 22);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (89, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (89, 47);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (90, 82);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (91, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (91, 81);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (92, 5);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (92, 46);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (92, 58);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (93, 44);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (93, 29);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (93, 58);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (94, 16);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (94, 65);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (94, 60);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (95, 20);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (95, 82);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (95, 75);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (96, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (96, 1);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (97, 36);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (97, 57);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (98, 5);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (98, 3);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (99, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (99, 70);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (100, 79);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (101, 57);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (101, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (101, 9);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (102, 11);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (102, 70);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (102, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (103, 70);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (104, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (104, 9);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (104, 75);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (105, 10);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (106, 32);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (106, 5);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (107, 28);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (107, 26);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (107, 12);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (108, 46);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (108, 16);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (108, 9);
+INSERT INTO alcohol_scent (alcohol_number, scent_number) VALUES (109, 28);

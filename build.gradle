@@ -35,9 +35,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	//implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	
 }
-
+//springBoot {
+//	mainClass = 'com.example.mobilepj.FirstAlcoholApplication'
+//}
 tasks.named('bootBuildImage') {
 	builder = 'paketobuildpacks/builder-jammy-base:latest'
 }

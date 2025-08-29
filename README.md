@@ -19,9 +19,13 @@
 - MariaDB Driver 2.4.1
 - IDE: Eclipse
 
-## API 엔드포인트
+## 🔗 API 엔드포인트
 - /alcohol/* - 주류 정보 관련 API  
 - /review/* - 리뷰 관련 API  
 - /tastenote/* - 테이스팅 노트 관련 API  
-- /user/* - 사용자 관련 API  
-- /member/* - 회원 관리 API  
+- /member/* - 회원 관리 API
+
+## 📌 앞으로 할 일 (To-do)
+
+- [ ] API 목록 정리
+- [ ] tastenote api 구현

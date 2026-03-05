@@ -1,6 +1,7 @@
 package com.example.mobilepj.dto;
 
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -65,12 +66,12 @@ public class AlcoholResponseDto {
         dto.setIbu(alcohol.getIbu());
         dto.setTasteDetail(alcohol.getTasteDetail());
         dto.setDetail(alcohol.getDetail());
-        dto.setTastes(alcohol.getTastes().stream()
-                .map(TasteDto::from)
-                .collect(Collectors.toList()));
-        dto.setScents(alcohol.getScents().stream()
-                .map(ScentDto::from)
-                .collect(Collectors.toList()));
+        dto.setTastes(alcohol.getTastes() != null
+                ? alcohol.getTastes().stream().map(TasteDto::from).collect(Collectors.toList())
+                : Collections.emptyList());
+        dto.setScents(alcohol.getScents() != null
+                ? alcohol.getScents().stream().map(ScentDto::from).collect(Collectors.toList())
+                : Collections.emptyList());
         return dto;
     }
 }

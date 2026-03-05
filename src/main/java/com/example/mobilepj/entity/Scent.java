@@ -23,6 +23,22 @@ public class Scent {
 	@JsonIgnore
 	private List<Alcohol> alcohols;
 
+	public int getScentNumber() {
+		return scentNumber;
+	}
+
+	public void setScentNumber(int scentNumber) {
+		this.scentNumber = scentNumber;
+	}
+
+	public String getScentInfo() {
+		return scentInfo;
+	}
+
+	public void setScentInfo(String scentInfo) {
+		this.scentInfo = scentInfo;
+	}
+
 	public List<Alcohol> getAlcohols() {
 		return alcohols;
 	}

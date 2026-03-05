@@ -23,6 +23,22 @@ public class Taste {
 	@JsonIgnore
 	private List<Alcohol> alcohols;
 
+	public int getTasteNumber() {
+		return tasteNumber;
+	}
+
+	public void setTasteNumber(int tasteNumber) {
+		this.tasteNumber = tasteNumber;
+	}
+
+	public String getTasteInfo() {
+		return tasteInfo;
+	}
+
+	public void setTasteInfo(String tasteInfo) {
+		this.tasteInfo = tasteInfo;
+	}
+
 	public List<Alcohol> getAlcohols() {
 		return alcohols;
 	}

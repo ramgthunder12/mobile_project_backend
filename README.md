@@ -25,6 +25,10 @@
 - /tastenote/* - 테이스팅 노트 관련 API  
 - /member/* - 회원 관리 API
 
+## 📄 문서
+
+- [JPA 기능 정리](./JPA_FEATURES.md) - 프로젝트에서 사용된 Spring Data JPA / Hibernate 기능 상세 정리
+
 ## 📌 앞으로 할 일 (To-do)
 
 - [ ] API 목록 정리

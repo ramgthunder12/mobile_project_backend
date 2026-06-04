@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.mobilepj.dto.AlcoholRequestDto;
+import com.example.mobilepj.dto.AlcoholResponseDto;
 import com.example.mobilepj.entity.Alcohol;
 import com.example.mobilepj.service.AlcoholService;
 
@@ -53,9 +54,9 @@ public class AlcoholController {
 //        return AlcoholService.getAllAlcohols();
 //    }
     @PostMapping("/")
-    public ResponseEntity<Alcohol> addAlcohol(@RequestBody AlcoholRequestDto dto) {
+    public ResponseEntity<AlcoholResponseDto> addAlcohol(@RequestBody AlcoholRequestDto dto) {
     	Alcohol saved = alcoholService.saveAlcohol(dto);
-    	return ResponseEntity.ok(saved);
+    	return ResponseEntity.ok(AlcoholResponseDto.from(saved));
     }
 
 //    @GetMapping("/")
